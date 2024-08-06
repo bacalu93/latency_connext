@@ -22,8 +22,8 @@ The Latency Measurement Tool is a desktop application built using Python's `tkin
 
 1. **Clone the Repository**:
    \`\`\`bash
-   git clone https://github.com/yourusername/latency-measurement-tool.git
-   cd latency-measurement-tool
+   git clone https://github.com/bacalu93/latency_connext.git
+   cd latency_connext
    \`\`\`
 
 2. **Install Dependencies**:
@@ -53,8 +53,8 @@ The Latency Measurement Tool is a desktop application built using Python's `tkin
 
 1. **Clone the Repository**:
    \`\`\`bash
-   git clone https://github.com/yourusername/latency-measurement-tool.git
-   cd latency-measurement-tool
+   git clone https://github.com/bacalu93/latency_connext.git
+   cd latency_connext
    \`\`\`
 
 2. **Install Dependencies**:
@@ -95,7 +95,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or suggestions, please contact [your_email@example.com](mailto:your_email@example.com).
+For any questions or suggestions, please contact andrei.bacalu93@gmail.com.
 
 ---
 
