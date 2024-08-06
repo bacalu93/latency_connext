@@ -1,4 +1,6 @@
+# Let's update the README.md content to ensure the code blocks render properly on GitHub.
 
+updated_readme_content = """
 # Latency Measurement Tool
 
 ## Overview
@@ -21,82 +23,87 @@ The Latency Measurement Tool is a desktop application built using Python's `tkin
 ### For Windows
 
 1. **Clone the Repository**:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/bacalu93/latency_connext.git
    cd latency_connext
-   \`\`\`
+Install Dependencies: Ensure you have Python installed on your machine. You can install the required Python packages using pip:
 
-2. **Install Dependencies**:
-   Ensure you have Python installed on your machine. You can install the required Python packages using pip:
-   \`\`\`bash
-   pip install requests
-   \`\`\`
+bash
+Always show details
 
-3. **Run the Application**:
-   \`\`\`bash
-   python connext_windows.py
-   \`\`\`
+Copy code
+pip install requests
+Run the Application:
 
-4. **Convert to Executable (Optional)**:
-   If you want to convert the Python script to an executable file, you can use \`pyinstaller\`. First, install \`pyinstaller\`:
-   \`\`\`bash
-   pip install pyinstaller
-   \`\`\`
+bash
+Always show details
 
-   Then, create the executable:
-   \`\`\`bash
-   pyinstaller --onefile connext_windows.py
-   \`\`\`
-   This will generate a \`dist\` folder containing the \`connext_windows.exe\` file.
+Copy code
+python connext_windows.py
+Convert to Executable (Optional): If you want to convert the Python script to an executable file, you can use pyinstaller. First, install pyinstaller:
 
-### For Linux
+bash
+Always show details
 
-1. **Clone the Repository**:
-   \`\`\`bash
-   git clone https://github.com/bacalu93/latency_connext.git
-   cd latency_connext
-   \`\`\`
+Copy code
+pip install pyinstaller
+Then, create the executable:
 
-2. **Install Dependencies**:
-   Ensure you have Python installed on your machine. You can install the required Python packages using pip:
-   \`\`\`bash
-   pip install requests
-   \`\`\`
+bash
+Always show details
 
-3. **Run the Application**:
-   \`\`\`bash
-   python connext_linux.py
-   \`\`\`
+Copy code
+pyinstaller --onefile connext_windows.py
+This will generate a dist folder containing the connext_windows.exe file.
 
-## Usage
+For Linux
+Clone the Repository:
 
-1. **Enter URL / IP**: Input the URL or IP address you want to test.
-2. **Enter Port (Optional)**: Specify the port number if you are checking a port status.
-3. **Enter HTTP Proxy (Optional)**: Input the proxy URL if you want to perform requests through a proxy.
-4. **Click Buttons**: Click on the desired operation button (\`Ping\`, \`Get Request\`, \`Check Port\`, \`NSLookup\`, \`Check Proxy\`) to start the operation.
-5. **View Output**: The results will be displayed in the output area.
-6. **Stop Operation**: Click \`Stop\` to terminate any ongoing operation.
-7. **Reset Output**: Click \`Reset\` to clear the output display.
-8. **Download Output**: Click \`Download Output\` to save the results to a text file.
+bash
+Always show details
 
-## Code Structure
+Copy code
+git clone https://github.com/bacalu93/latency_connext.git
+cd latency_connext
+Install Dependencies: Ensure you have Python installed on your machine. You can install the required Python packages using pip:
 
-- **connext_windows.py**: Application file for Windows containing the \`LatencyApp\` class and GUI logic.
-- **connext_linux.py**: Application file for Linux containing the \`LatencyApp\` class and GUI logic.
-- **README.md**: This readme file.
+bash
+Always show details
 
-## Contributions
+Copy code
+pip install requests
+Run the Application:
 
+bash
+Always show details
+
+Copy code
+python connext_linux.py
+Usage
+Enter URL / IP: Input the URL or IP address you want to test.
+Enter Port (Optional): Specify the port number if you are checking a port status.
+Enter HTTP Proxy (Optional): Input the proxy URL if you want to perform requests through a proxy.
+Click Buttons: Click on the desired operation button (Ping, Get Request, Check Port, NSLookup, Check Proxy) to start the operation.
+View Output: The results will be displayed in the output area.
+Stop Operation: Click Stop to terminate any ongoing operation.
+Reset Output: Click Reset to clear the output display.
+Download Output: Click Download Output to save the results to a text file.
+Code Structure
+connext_windows.py: Application file for Windows containing the LatencyApp class and GUI logic.
+connext_linux.py: Application file for Linux containing the LatencyApp class and GUI logic.
+README.md: This readme file.
+Contributions
 Contributions are welcome! Please fork the repository and submit pull requests for any enhancements or bug fixes.
 
-## License
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
+Contact
 For any questions or suggestions, please contact andrei.bacalu93@gmail.com.
 
----
+Feel free to customize this README file according to your specific needs and project details. """
 
-Feel free to customize this README file according to your specific needs and project details.
+file_path = "/mnt/data/README.md" with open(file_path, "w") as file: file.write(updated_readme_content)
+
+file_path
+
